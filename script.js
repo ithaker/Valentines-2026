@@ -194,7 +194,7 @@ function celebrate() {
     const photos = [
         "images/snow.jpg",
         "images/kiss.jpg",
-        "images/beachkiss.jpg"
+        "images/beachkiss.jpeg"
     ];
 
     photos.forEach((src, index) => {
