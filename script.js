@@ -186,6 +186,23 @@ function celebrate() {
     
     // Create heart explosion effect
     createHeartExplosion();
+
+    // 🔽 NEW: add celebration photos
+    const imageContainer = document.getElementById('celebrationImages');
+    imageContainer.innerHTML = "";
+
+    const photos = [
+        "images/photo1.jpg",
+        "images/photo2.jpg",
+        "images/photo3.jpg"
+    ];
+
+    photos.forEach((src, index) => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.style.animationDelay = `${index * 0.15}s`;
+        imageContainer.appendChild(img);
+    });
 }
 
 // Create heart explosion animation
