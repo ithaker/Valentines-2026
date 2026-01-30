@@ -9,18 +9,18 @@ const CONFIG = {
 
  questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Do you have a crush on me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "I have the biggest crush in the entire world!! I think I love you!! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "Hmm well how much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            text: "Will you be my Valentine on February the 14th, 2026? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -29,9 +29,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW You love me that much??!?! 🥰🚀💝",  // Shows when they go past 5000%
+        high: "NO WAY REALLY?!?!",              // Shows when they go past 1000%
+        normal: "AAAAHHHHH "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -44,9 +44,9 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#4F8742",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#9FCC37",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        backgroundStart: "#DBFFA8",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#0B650E",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#D23a3a",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
