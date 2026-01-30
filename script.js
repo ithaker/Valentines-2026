@@ -192,9 +192,9 @@ function celebrate() {
     imageContainer.innerHTML = "";
 
     const photos = [
-        "images/snow.jpg",
         "images/kiss.jpg",
-        "images/beachkiss.jpeg"
+        "images/tree.jpg",
+        "images/kiss1.jpgg"
     ];
 
     photos.forEach((src, index) => {
